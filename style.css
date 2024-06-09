@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Copse&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway";
+}
+
+main {
+  background-color: #FFF4EA;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#container{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.item{
+  width: 200px;
+  aspect-ratio: 1/1;
+  border: 8px solid #A3DFBE;
+}
+
+.fill{
+  height: 100%;
+  width: 100%;
+  background-color: #A3DFBE;
+  background-image: url('img/assortment-leaves-flowers-white-background_24972-2180.avif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.hold {
+  border: solid 5px #ccc;
+}
+
+.hovered {
+  background-color: #FFE397;
+  border-color: #A3DFBE;
+  border-style: dashed;
+}
